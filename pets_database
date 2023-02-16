@@ -1,0 +1,7 @@
+-- SELECT AVG(net_worth) AS average_net_worth FROM cats;
+-- SELECT SUM(net_worth) AS total_net_worth FROM cats;
+
+-- SELECT MIN(net_worth) FROM cats;
+
+-- SELECT COUNT(*) FROM cats;
+SELECT COUNT(*) FROM cats WHERE net_worth > 1000000;
